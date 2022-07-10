@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Center(
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 CircleAvatar(
                   radius: 75,
@@ -36,6 +36,13 @@ class MyApp extends StatelessWidget {
                     fontSize: 20.0,
                     letterSpacing: 2.5,
                     fontWeight: FontWeight.bold,
+                  ),
+                ),
+                SizedBox(
+                  height: 12.0,
+                  width: 150.0,
+                  child: Divider(
+                    color: Colors.teal.shade100,
                   ),
                 ),
                 //row card
